@@ -1,0 +1,4 @@
+data/Try20243712146549_TRY6.0_SpeciesList_TaxonomicHarmonization.csv filter=lfs diff=lfs merge=lfs -text
+data/TRYdbSpecies-mapped_with-wd-ncbi-gbif-otol.csv filter=lfs diff=lfs merge=lfs -text
+data/trydbtemp_Ontop/taxonomy.csv filter=lfs diff=lfs merge=lfs -text
+data/Ontop_input.db filter=lfs diff=lfs merge=lfs -text
