@@ -28,7 +28,8 @@ d) For building a Virtual Knowledge Graph (VKG), download [Ontop-cli/Ontop-prote
 `duckdb data/Ontop_input.db -c "IMPORT DATABASE 'data/trydbtemp_Ontop'"` or `run_duckdb.sh`
 
 **IV.Script to build the knowledge graph in Ontop**   
-`#Set the path in data/Ontop_config/duckdb.properties`
+`#Set the path in data/Ontop_config/duckdb.properties` 
+
 `sh run_ontop.sh`
 
 
