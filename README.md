@@ -22,10 +22,14 @@ d) For building a Virtual Knowledge Graph (VKG), download [Ontop-cli/Ontop-prote
 3. If you are not working on linux, then also install sqlite3 package (comes by default with ubuntu).
 
 **II.Script to map the TRY plant species name to the gbif, ncbi, wikidata and otol ids**
+
 `Rscript matchTaxonomy.R`
 
 **III.Script to build a duckdb database for Ontop and build the knowledge graph**
-`duckdb data/Ontop_input.db -c "IMPORT DATABASE 'data/trydbtemp_Ontop'"` or `run_duckdb.sh`
+
+`duckdb data/Ontop_input.db -c "IMPORT DATABASE 'data/trydbtemp_Ontop'"` or 
+
+`sh run_duckdb.sh`
 
 **IV.Script to build the knowledge graph in Ontop**   
 `#Set the path in data/Ontop_config/duckdb.properties` 
