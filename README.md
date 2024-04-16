@@ -1,4 +1,6 @@
-This repository contains scripts for integrating species and subsequent traits data from trydb with taxonomic ids from gbif, otol, ncbi and wikidata. At the moment, data for only 25 traits was downloaded from TRY-db. The csv file retrieved was first converted to sqlite database, followed by an on-disk approach (duckdb) to access the data. This was done to scale the current code for future data integration.
+This repository contains scripts for integrating species and subsequent traits data from trydb with taxonomic ids from gbif, otol, ncbi and wikidata. At the moment, data for only 25 traits was downloaded from TRY-db. Subsequently, the traits metadata was retrieved from TRY-db website and a subset of enpkg was also retrieved. The csv files retrieved were converted to duckdb (adavnatge: on-disk approach for sql queries). 
+
+NOTE: the trydbAll table containing the datasets from the TRY-db is a subset of the actual data.
 
 **I. Prerequisites:**
 
