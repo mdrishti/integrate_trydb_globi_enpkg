@@ -38,4 +38,6 @@ d) For building a Virtual Knowledge Graph (VKG), download [Ontop-cli/Ontop-prote
 
 `sh run_ontop.sh`
 
+**Disclaimer**
 
+Tha mappings in the ontop virtual knowledge graph are faulty at the moment. Therefore, the SPARQL query does not result in correct results. Work in progress...
