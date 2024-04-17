@@ -36,8 +36,8 @@ NOTE: the trydbAll table containing the datasets from the TRY-db is a subset of 
 
 `sh run_duckdb.sh`
 
-The relations between tables are depicted in this diagram:
-![TableRelations_ER_diagram](https://github.com/digital-botanical-gardens-initiative/integrate_trydb_globi_enpkg/assets/49712124/987a49ed-0e6f-41ba-aa51-abc2b4fb9b6e)
+The relations between tables are depicted in this diagram.
+![TableRelations_ER_diagram](https://github.com/digital-botanical-gardens-initiative/integrate_trydb_globi_enpkg/assets/49712124/10c38979-9b18-4dbe-9657-a6aea101a45f)
 
 
 **IV.Script to build the knowledge graph in Ontop**   
