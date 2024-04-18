@@ -1,6 +1,6 @@
 #################################################################################################
 # @Project - TRY-db data integration with ENPKG							#
-# @Description - This file is responsible for integrating taxonomy mapping of species name 	#
+# @Description - This code integrates taxonomy mapping of species name 				#
 #		 from TRY-db (ott, wikidata, gbif, ncbi)					#
 #################################################################################################
 
