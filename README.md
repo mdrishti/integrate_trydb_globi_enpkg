@@ -23,6 +23,8 @@ NOTE: the trydbAll table containing the datasets from the TRY-db is a subset of 
 
  d) For building a Virtual Knowledge Graph (VKG), download [Ontop-cli/Ontop-protege bundle (version 5.1.2)](https://github.com/ontop/ontop/releases/tag/ontop-5.1.2)
 
+
+
 2. For converting ontology files between multiple formats (e.g.: owl to ttl), install [robot](https://github.com/ontodev/robot/releases/tag/v1.9.5).
 
 
@@ -35,6 +37,7 @@ To plot distribution of the TRY-db species matched with ids from ott, ncbi, gbif
 
 `Rscript distTaxonomicIds.R`
 
+![distributionDB](https://github.com/digital-botanical-gardens-initiative/integrate_trydb_globi_enpkg/blob/main/figures/distributionDB.png)
 
 
 **III. Script to build a duckdb database for Ontop and build the knowledge graph**
@@ -48,10 +51,12 @@ The relations between tables are depicted in this diagram.
 
 
 
+
 **IV. Script to build the knowledge graph in Ontop**   
 `#Set the path in data/Ontop_config/duckdb.properties` 
 
 `sh run_ontop.sh`
+
 
 
 
